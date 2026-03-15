@@ -1,0 +1,20 @@
+GOOD BOOKKEEPING QR CODE SETUP
+=================================
+
+The Good Bookkeeping referral partner card requires the QR code image to be placed in this directory.
+
+Required file: good-bookkeeping-qr.jpg
+
+The QR code image has been provided and should be saved with this exact filename in the /public directory.
+
+Once saved, the Sponsors section will display:
+- The QR code prominently at the top of the card
+- Text explaining it connects to Rocky Top Drivers for CFO/bookkeeping services
+- A "Schedule Appointment" button
+- A link to goodbookkeeping.com
+
+The card matches the existing sponsor card design with:
+- Dark navy background
+- Gold accent borders
+- Centered layout
+- Responsive behavior
