@@ -11,6 +11,7 @@ interface Sponsor {
 const sponsors: Sponsor[] = [
   {
     name: 'The Bunny Hive Knoxville',
+    tagline: 'A social club for littles and their adults',
     website: 'https://www.thebunnyhive.com/knoxville',
     logo: '/940CD338-691E-48B0-A977-20F5AC8E21F2.jpg',
   },
