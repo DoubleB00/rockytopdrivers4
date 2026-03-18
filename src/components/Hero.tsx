@@ -32,10 +32,10 @@ export default function Hero() {
               className="h-40 sm:h-48 md:h-56 lg:h-64 xl:h-72 w-auto object-contain mb-6"
             />
             <h2 className="text-orange-500 font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-wide leading-tight whitespace-nowrap mb-4">
-              The Bunny Hive – Knoxville
+              Rocky Top Drivers, LLC
             </h2>
-            <p className="text-white/60 text-base sm:text-lg md:text-xl font-light tracking-wider leading-relaxed">
-              A social club for littles and their adults
+            <p className="text-gold-400 text-lg sm:text-xl md:text-2xl font-light tracking-wide">
+              Knoxville • Nashville • Charlotte • Atlanta
             </p>
           </div>
 
