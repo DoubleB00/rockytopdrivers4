@@ -1,4 +1,4 @@
-import { ExternalLink, Building2, Calendar } from 'lucide-react';
+import { ExternalLink, Building2 } from 'lucide-react';
 
 interface Sponsor {
   name: string;
@@ -20,6 +20,11 @@ const sponsors: Sponsor[] = [
     tagline: 'Modern Websites for Businesses',
     website: 'https://clevercog.net',
     logo: '/image0.png',
+  },
+  {
+    name: 'Good Bookkeeping',
+    website: 'https://www.goodbookkeeping.com/bookpg-1?fbclid=PARlRTSAQm0-RleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadqoYvbOCD4I79KWYb89ms2UcKCemzYJIjAJd5mhBJJ2oiksrrhEwra3-KImg_aem_mafK1c-DZyc-YSrUJh4gGQ',
+    logo: '/image0_(1).jpeg',
   },
 ];
 
@@ -88,49 +93,6 @@ export default function Sponsors() {
               </div>
             </a>
           ))}
-
-          <div className="card-glass p-6 border-gold-500/20 flex flex-col">
-            <div className="flex flex-col items-center text-center h-full">
-              <div className="w-48 h-48 flex items-center justify-center border-2 border-gold-500/40 mb-4 bg-white p-2 relative">
-                <img
-                  src="/good-booking-qr.jpg"
-                  alt="Good Bookkeeping QR Code"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-
-              <p className="text-white/60 text-xs mb-6 leading-relaxed">
-                Scan to connect with Rocky Top Drivers about fractional CFO and bookkeeping services.
-              </p>
-
-              <h3 className="text-white font-semibold text-base mb-4">
-                Good Bookkeeping
-              </h3>
-
-              <a
-                href="#"
-                className="w-full bg-gold-500 hover:bg-gold-400 text-navy-900 font-semibold py-3 px-6 transition-all duration-300 flex items-center justify-center gap-2 mb-6"
-              >
-                <Calendar className="w-4 h-4" />
-                Schedule Appointment
-              </a>
-
-              <div className="mt-auto pt-4 border-t border-white/10 w-full">
-                <p className="text-white/40 text-xs mb-2">
-                  Learn more about the partner company
-                </p>
-                <a
-                  href="https://www.goodbookkeeping.com/bookpg-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gold-500/70 hover:text-gold-400 text-xs transition-colors duration-200 inline-flex items-center gap-1"
-                >
-                  goodbookkeeping.com
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="text-center pt-8 border-t border-white/10">
