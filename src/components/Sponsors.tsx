@@ -24,7 +24,7 @@ const sponsors: Sponsor[] = [
   {
     name: 'Good Bookkeeping',
     website: 'https://www.goodbookkeeping.com/bookpg-1?fbclid=PARlRTSAQm0-RleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadqoYvbOCD4I79KWYb89ms2UcKCemzYJIjAJd5mhBJJ2oiksrrhEwra3-KImg_aem_mafK1c-DZyc-YSrUJh4gGQ',
-    logo: '/image0_(1).jpeg',
+    logo: '/2C39DAC1-5B8D-4CA3-8032-F627B1FA62A6.JPG',
   },
 ];
 
